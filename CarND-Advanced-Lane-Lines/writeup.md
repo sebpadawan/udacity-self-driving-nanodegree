@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 [image1]: ./output_images/calibration1result.jpg "After/Before distortion"
 [image2]: ./output_images/test4undistortion.jpg "After/Before distorsion - road picture"
 [image3]: ./output_images/test1binary.jpg "Binary Example"
-[image35]: .source_points.png "Source points"
+[image35]: ./source_points.png "Source points"
 [image4]: ./output_images/straight_lines1bird.jpg "Warp Example"
 [image5]: ./output_images/find_lane_without_prior.jpg "Lane search without prior"
 [image6]: ./output_images/find_lane_with_prior.jpg "Lane search with prior"
@@ -249,7 +249,7 @@ if check:
 The rest of the code takes care of annotating the result frame using averaged fits and averaged curvatures. An example of output is given below  
 
 
-![alt text][image6]
+![alt text][image7]
 
 ---
 
