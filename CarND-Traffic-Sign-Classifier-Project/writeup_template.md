@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./class_diversity.jpg "Class diversity"
 [image2]: ./sample_diversity.jpg "Sample diversity"
-[image3]: ./class_balancing.jpg' "Class balancing"
+[image3]: ./class_balancing.jpg "Class balancing"
 [image4]: ./data_augmentation.jpg "Original data and fake data"
 [image5]: ./balanced_classes.jpg "Class distribution after oversampling"
 [image6]: ./sign0_.jpg "Web image 1"
@@ -81,6 +81,7 @@ I also decided to generate additional data to tackle two of the issues I mention
 ![alt text][image4]
 
 - Using oversampling (`imblearn` library) to obtain balanced class distribution
+
 ![alt text][image5]
 
 
