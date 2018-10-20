@@ -18,17 +18,17 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./images/cnn-architecture-624x890 "Model Visualization"
+[image1]: ./images/cnn-architecture-624x890.png "Model Visualization"
 [image2]: ./images/placeholder.png "Grayscaling"
 [image3]: ./images/center_1.jpg "Recovery Image"
 [image4]: ./images/center_2.jpg "Recovery Image"
 [image5]: ./images/center_3.jpg "Recovery Image"
 [image6]: ./images/center_3.jpg "Normal Image"
 [image7]: ./images/flip_center_3.jpg "Flipped Image"
-[image8]: ./images/history.pdf "Convergence"
-[image9]: ./images/center.pdf "Center"
-[image10]: ./images/right.pdf "Right"
-[image11]: ./images/left.pdf "Left"
+[image8]: ./images/history.png "Convergence"
+[image9]: ./images/center.jpg "Center"
+[image10]: ./images/right.jpg "Right"
+[image11]: ./images/left.jpg "Left"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
