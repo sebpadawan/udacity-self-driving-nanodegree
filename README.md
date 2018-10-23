@@ -5,7 +5,11 @@
 Introduction
 ---
 
-This repo contains all the code I have worked on during my Udacity Nanodegree about self-driving car. This nanodegree is composed of two terms of 3 months. More details about this nanodegree can be found [here](http://www.udacity.com/drive). Roughly, the first term focuses more on computer vision aspects of self-driving car (such as finding a line), the use of deep learning (for traffic sign detection and autonomous driving) as well as on sensor fusion with a Kalman Filter. The second term deals with localisation with a particler filter, on path planning and proportional-integral-derivative (PID) controller. At the end of these two terms, we get the opportunity to use Carla, the Udacity self-driving car, and the Robot Operating System that controls her. We work with a team of other Nanodegree students to combine what we’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track!
+This repo contains all the codes I have worked on during my Udacity Nanodegree about self-driving car. This nanodegree is composed of two terms of 3 months. More details about this nanodegree can be found [here](http://www.udacity.com/drive). 
+
+Roughly, the first term focuses more on computer vision aspects of self-driving car (such as finding a line), the use of deep learning (for traffic sign detection and autonomous driving) as well as on sensor fusion with a Kalman Filter. The second term deals with localisation with a particler filter, on path planning and proportional-integral-derivative (PID) controller. 
+
+At the end of these two terms, we get the opportunity to use Carla, the Udacity self-driving car, and the Robot Operating System that controls her. We work with a team of other Nanodegree students to combine what we’ve learned over the course of the entire Nanodegree Program to drive Carla, a real self-driving car, around the Udacity test track!
 
 Content
 ---
