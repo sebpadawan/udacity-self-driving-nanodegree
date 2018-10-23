@@ -3,6 +3,7 @@ import csv
 import cv2
 import numpy as np
 import os
+import glob
 from sklearn.model_selection import train_test_split
 import sklearn
 from sklearn.utils import shuffle
@@ -11,12 +12,31 @@ from keras.layers import Flatten, Dense, Lambda, Cropping2D, BatchNormalization,
 from keras.layers import Conv2D
 from keras.layers import MaxPooling2D
 import matplotlib.pyplot as plt
+import tarfile
 
+LOCAL = True
 
 ## Prepare data (extract data and make data generator for later use)
-folders = ['data', 'reverse_tour', 'own_data'] # List of folders containing training data
-source = '/opt/carnd_p3/' # Common path
-# - Image names
+if LOCAL:
+    # Read data on local computer
+    to_unzip = glob.glob(os.path.join('training_data','*.tar.gz'))
+    if len(to_unzip) > 0 :
+        print('Unzipping the data ... ')
+        for u in to_unzip:
+            tar = tarfile.open(u, "r:gz")
+            tar.extractall(os.path.join('.','training_data'))
+            tar.close()
+            os.remove(u)
+            print('- '+ u + ' unzipped!')
+
+if LOCAL:
+    folders = ['data', 'own_data', 'reverse_tour'] # List of folders containing training data
+    source = os.path.join('.','training_data')
+else :
+    # Read data on remote Udacity Linux computer
+    folders = ['data', 'reverse_tour', 'own_data'] # List of folders containing training data
+    source = '/opt/carnd_p3/' # Common path
+
 samples = []
 for folder in folders :
     print('Reading .. ' + folder)
@@ -28,6 +48,7 @@ for folder in folders :
                 for k in range(3):
                     new_line[k] = os.path.join(source,folder,'IMG',line[k].split('/')[-1]) # To have the correct absolute path of each training sample
                 samples.append(new_line)
+
 #  - Generator  (On the fly data augmentation + Right/Center/Left images)
 def generator(samples, batch_size=32):
     '''
