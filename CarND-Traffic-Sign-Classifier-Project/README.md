@@ -5,21 +5,21 @@
 
 [//]: # (Image References)
 
-[image1]: ./class_diversity.jpg "Class diversity"
-[image2]: ./sample_diversity.jpg "Sample diversity"
-[image3]: ./class_balancing.jpg "Class balancing"
-[image4]: ./data_augmentation.jpg "Original data and fake data"
-[image5]: ./balanced_classes.jpg "Class distribution after oversampling"
-[image6]: ./sign0_.jpg "Web image 1"
-[image7]: ./sign1_.jpg "Web image 2"
-[image8]: ./sign2_.jpg "Web image 3"
-[image9]: ./sign3_.jpg "Web image 4"
-[image10]: ./sign4_.jpg "Web image 5"
-[image11]: ./sign0_prediction.jpg "Web image 1"
-[image12]: ./sign1_prediction.jpg "Web image 2"
-[image13]: ./sign2_prediction.jpg "Web image 3"
-[image14]: ./sign3_prediction.jpg "Web image 4"
-[image15]: ./sign4_prediction.jpg "Web image 5"
+[image1]: ./images/class_diversity.jpg "Class diversity"
+[image2]: ./images/sample_diversity.jpg "Sample diversity"
+[image3]: ./images/class_balancing.jpg "Class balancing"
+[image4]: ./images/data_augmentation.jpg "Original data and fake data"
+[image5]: ./images/balanced_classes.jpg "Class distribution after oversampling"
+[image6]: ./images/sign0_.jpg "Web image 1"
+[image7]: ./images/sign1_.jpg "Web image 2"
+[image8]: ./images/sign2_.jpg "Web image 3"
+[image9]: ./images/sign3_.jpg "Web image 4"
+[image10]: ./images/sign4_.jpg "Web image 5"
+[image11]: ./images/sign0_prediction.jpg "Web image 1"
+[image12]: ./images/sign1_prediction.jpg "Web image 2"
+[image13]: ./images/sign2_prediction.jpg "Web image 3"
+[image14]: ./images/sign3_prediction.jpg "Web image 4"
+[image15]: ./images/sign4_prediction.jpg "Web image 5"
 
 
 General instructions
