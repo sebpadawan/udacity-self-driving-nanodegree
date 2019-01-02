@@ -14,7 +14,7 @@
 #include <sstream>
 #include <string>
 #include <iterator>
-
+#include <deque> 
 #include "particle_filter.h"
 
 using namespace std;
